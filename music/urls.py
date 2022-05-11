@@ -1,8 +1,7 @@
 from django.urls import path
 from . import views
 
-urlpatterns= [
-    path('', views.music_list),
-
-
+urlpatterns = [
+    path('', views.music_project),
+  
 ]
